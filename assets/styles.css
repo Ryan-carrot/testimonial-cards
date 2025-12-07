@@ -98,17 +98,72 @@ header {
     margin-bottom: 2rem;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 .testimonials-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+/* first testimonial card styles */
 .first-testimonial-content {
     background-color: var(--secondary-color);
     color: #fff;
     border-radius: 20px;
+    padding: 1.5rem;
+    margin: 1rem;
 }
 
-.first-author-info {
+.first-testimonial-author {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.first-testimonial-author img.first-author-avatar {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 70px;
+    height: 70px;
+}
+
+/* Second testimonial card styles */
+.second-testimonial {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.second-testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.second-testimonial img.second-author-avatar {
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
