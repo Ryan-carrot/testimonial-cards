@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
     <script src="./assets/script.js" defer></script>
     <title>Testimonial Card Project</title>
 </head>
@@ -40,6 +40,7 @@
                     <br>
                     Highly recommended!</p>
                 </div>
+                <i class="arrow down"></i>
                 <div class="first-testimonial-author">
                     <img src="./assets/artem-jones.jpg" alt="Artem Jones Avatar" class="first-author-avatar">
                     <div class="first-author-info">
@@ -62,15 +63,13 @@
             </section>
         </div>
         <section class="third-testimonial">
-            <img src="./assets/rating.png" height="100" width="100" alt="5 Star Rating" class="rating-stars">
-            <img src="./assets/jackie-mackle.jpg" height="70" width="70" alt="Jackie Mackle Avatar" class="third-author-avatar">
-            <div class="third-testimonial-author">
+            <img src="./assets/jackie-mackle.jpg" alt="Jackie Mackle Avatar" class="third-author-avatar">
+            <div class="third-testimonial-content">
                 <div class="third-author-info">
+                    <img src="./assets/ratings.png" alt="5 Star Rating" class="rating-stars">
                     <h3>Jackie Mackle</h3>
                     <p>Engineering Manager</p>
                 </div>
-            </div>
-            <div class="third-testimonial-content">
                 <p>I find myself recommending roadmap.sh to all the internees or junior developers. It's a great way to skill up and grown in your career.</p>
             </div>
         </section>
@@ -79,7 +78,11 @@
                 <p>roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on millions of lives since then.</p>
             </div>
             <div class="fourth-testimonial-author">
-                <img src="./assets/zoran-borojevic.jpg" height="70" width="70" alt="Zoran Borojevic Avatar" class="fourth-author-avatar">
+                <div class="author-carousel">
+                    <img src="./assets/zoran-borojevic.jpg" alt="Zoran Borojevic Avatar" class="fourth-author-avatar-1">
+                    <img src="./assets/zoran-borojevic.jpg" alt="Zoran Borojevic Avatar" class="fourth-author-avatar-2">
+                    <img src="./assets/zoran-borojevic.jpg" alt="Zoran Borojevic Avatar" class="fourth-author-avatar-3">
+                </div>
                 <div class="fourth-author-info">
                     <h3>Zoran Borojevic</h3>
                 </div>
@@ -87,8 +90,8 @@
         </section>    
     </main>
     <footer>
-        <img src="./assets/github.png" height="30" width="30" alt="GitHub Logo" class="github-logo">
-        <img src="./assets/linkedin.png" height="30" width="30" alt="LinkedIn Logo" class="linkedin-logo">
+        <a href="https://github.com/Ryan-carrot/"><img src="./assets/github.png" height="30" width="30" alt="GitHub Logo" class="github-logo"></a>
+        <a href="https://www.linkedin.com/in/ryan-christian-74166a218/"><img src="./assets/linkedin.png" height="30" width="30" alt="LinkedIn Logo" class="linkedin-logo"></a>
         <p>© 2025 Ryan Christian. All rights reserved.</p>
     </footer>
 </body>
